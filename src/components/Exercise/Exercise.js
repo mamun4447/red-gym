@@ -8,7 +8,7 @@ const Exercise = ({ stime, xtime }) => {
   // console.log(newTime);
 
   const tosty = () => {
-    toast("Ore bap re, koira felsi!!");
+    toast("Wow! you got 8 pack!!");
   };
 
   return (
