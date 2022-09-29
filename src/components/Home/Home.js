@@ -32,8 +32,8 @@ const Home = () => {
             />
           ))}
         </div>
-        <div className="sticky">
-          <Cart setTime={setTime} />
+        <div className=" ">
+          <Cart stime={stime} />
         </div>
       </div>
     </div>

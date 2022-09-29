@@ -17,7 +17,7 @@ const SinglePlayer = (props) => {
           <p>Time required: {time}s</p>
           <div className="card-actions justify-end">
             <button
-              onClick={handledSetTime(player)}
+              onClick={() => handledSetTime(player)}
               className="btn btn-primary"
             >
               Add to list
