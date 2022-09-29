@@ -1,11 +1,10 @@
 import React from "react";
 
-const Exercise = ({ stime, setTime }) => {
+const Exercise = (props) => {
+  // console.log(props);
+  // console.log(setTime);
   let times = 0;
   // console.log(stime);
-  for (const time in stime) {
-    times += parseInt(time);
-  }
 
   return (
     <div className="container">

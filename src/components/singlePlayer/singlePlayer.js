@@ -1,18 +1,10 @@
 import React from "react";
 
-const SinglePlayer = ({ player, stime, setTime }) => {
+const SinglePlayer = (props) => {
+  const { player, handledSetTime } = props;
+  // console.log(props);
   const { name, img, time } = player;
-  let timeInArray = [];
 
-  const handledSetTime = ({ stime }) => {
-    if (timeInArray) {
-      const timeArray = [...timeInArray, stime];
-      setTime(timeArray);
-    } else {
-      timeInArray.push(stime);
-      setTime(timeInArray);
-    }
-  };
   // console.log(stime);
   return (
     <div>
@@ -25,7 +17,7 @@ const SinglePlayer = ({ player, stime, setTime }) => {
           <p>Time required: {time}s</p>
           <div className="card-actions justify-end">
             <button
-              onClick={() => handledSetTime(stime)}
+              onClick={handledSetTime(player)}
               className="btn btn-primary"
             >
               Add to list
