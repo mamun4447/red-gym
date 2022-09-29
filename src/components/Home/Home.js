@@ -4,6 +4,7 @@ import SinglePlayer from "../singlePlayer/singlePlayer";
 
 const Home = () => {
   const [players, setPlayers] = useState([]);
+  const [stime, setTime] = useState([]);
   //   console.log(players);
 
   const url = `fakeDB.json`;
@@ -18,11 +19,16 @@ const Home = () => {
       <div className="container grid grid-cols-4 gap-4 mx-auto">
         <div className="grid col-span-3 grid-cols-3 gap-2 ">
           {players.map((player) => (
-            <SinglePlayer key={player.id} player={player} />
+            <SinglePlayer
+              stime={stime}
+              setTime={setTime}
+              key={player.id}
+              player={player}
+            />
           ))}
         </div>
         <div className="sticky">
-          <Cart />
+          <Cart stime={stime} setTime={setTime} />
         </div>
       </div>
     </div>
