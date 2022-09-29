@@ -6,15 +6,17 @@ import Profile from "../Profile/Profile";
 const Cart = ({ stime }) => {
   const [xtime, setTime] = useState();
   // console.log(props);
+
   const getBreakTime = (seconds) => {
     // console.log(seconds);
-
-    setTime(seconds);
+    localStorage.setItem("breakTime", seconds);
+    const localData = localStorage.getItem("breakTime");
+    setTime(localData);
   };
-  console.log(xtime);
+  // console.log(xtime);
 
   return (
-    <div className="border rounded-lg h-full sticky top-0 p-3">
+    <div className="border rounded-lg h-full p-3">
       <Profile />
       <h2 className="text-xl mt-10">Add A Break</h2>
       <Break getBreakTime={getBreakTime} />
@@ -22,6 +24,6 @@ const Cart = ({ stime }) => {
       <Exercise xtime={xtime} stime={stime} />
     </div>
   );
-};
+};;;;;
 
 export default Cart;

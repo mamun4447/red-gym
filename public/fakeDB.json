@@ -9,31 +9,31 @@
         "id":"02",
         "name":"Cable",
         "img":"https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
-        "time":"30"
+        "time":"25"
     },
     {
         "id":"03",
         "name":"Free Motion",
         "img":"https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
-        "time":"30"
+        "time":"60"
     },
     {
         "id":"04",
         "name":"Tredmill",
         "img":"https://images.unsplash.com/photo-1578874691223-64558a3ca096?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGd5bSUyMGVxdWlwbWVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "time":"30"
+        "time":"45"
     },
     {
         "id":"05",
         "name":"WightUp",
         "img":"https://images.unsplash.com/photo-1566568531155-07244e00963d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGd5bSUyMGVxdWlwbWVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "time":"30"
+        "time":"15"
     },
     {
         "id":"06",
         "name":"Cycling",
         "img":"https://images.unsplash.com/photo-1598289431512-b97b0917affc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGd5bSUyMGVxdWlwbWVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "time":"30"
+        "time":"50"
     }
 ]
 

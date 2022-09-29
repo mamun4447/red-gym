@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="mb-10">
       <div className="navbar bg-base-100 ">
-        <a href="/" className="ml-20 btn btn-ghost normal-case text-xl">
+        <a href="/" className="ml-20 btn btn-ghost normal-case text-3xl mt-10">
           <FontAwesomeIcon className="pr-2" icon={faDumbbell} size="xl" />
           Red-GYM
         </a>

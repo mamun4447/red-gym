@@ -8,7 +8,7 @@ const SinglePlayer = (props) => {
   // console.log(stime);
   return (
     <div>
-      <div className="card card-compact w-full bg-base-100 shadow-xl">
+      <div className="card card-compact w-full mt-2 lg:mt-0 bg-base-100 shadow-xl">
         <figure>
           <img className="h-80 w-full" src={img} alt="Shoes" />
         </figure>
