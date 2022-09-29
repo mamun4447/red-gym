@@ -11,7 +11,7 @@ const Cart = ({ stime }) => {
     // console.log(seconds);
     localStorage.setItem("breakTime", seconds);
     const localData = localStorage.getItem("breakTime");
-    setTime(localData);
+    setTime(JSON.parse(localData));
   };
   // console.log(xtime);
 
