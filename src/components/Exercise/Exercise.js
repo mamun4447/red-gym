@@ -1,10 +1,10 @@
 import React from "react";
 
-const Exercise = ({ stime }) => {
+const Exercise = ({ stime, xtime }) => {
   // console.log(stime);
   let newTime = 0;
   stime.map((element) => (newTime += parseInt(element.time)));
-  console.log(newTime);
+  // console.log(newTime);
 
   return (
     <div className="container">
@@ -17,7 +17,7 @@ const Exercise = ({ stime }) => {
       <div className="flex justify-between m-5 bg-slate-200 p-2 rounded">
         <h3 className="">Break time</h3>
         <p>
-          <span>{}</span> seconds
+          <span>{xtime}</span> seconds
         </p>
       </div>
       <div className="text-center mt-10">

@@ -8,7 +8,7 @@ const Break = ({ getBreakTime }) => {
         type=""
         className="bg-white p-1 rounded-full"
       >
-        20
+        20s
       </button>
       <button
         onClick={() => getBreakTime("30")}
